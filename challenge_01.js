@@ -59,10 +59,21 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 /******* Methode 5 *******/
 
+// let zahl1, zahl2;
+// zahl1 = prompt("Bitte eine Zahl eingeben: ");
+// zahl2 = prompt("Bitte noch eine Zahl eingeben: ");                                
+
+// console.log(parseInt(zahl1) + parseInt(zahl2));             // 5. Rechenmethode
+
+
+
+/******* Methode 6 *******/
+
 let zahl1, zahl2;
 zahl1 = prompt("Bitte eine Zahl eingeben: ");
 zahl2 = prompt("Bitte noch eine Zahl eingeben: ");
 
-//summe = zahl1 - - zahl2;                                    // 5. Rechenmethode
+zahl1 = Number(zahl1);                                    
+zahl2 = Number(zahl2); 
 
-console.log(parseInt(zahl1) + parseInt(zahl2));
+console.log("Ausgabe der Summe: " + (zahl1 + zahl2));       // 6. Rechenmethode
