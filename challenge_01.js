@@ -40,7 +40,7 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 // zahl1 = prompt("Bitte eine Zahl eingeben: ");
 // zahl2 = prompt("Bitte noch eine Zahl eingeben: ");
 
-// summe = zahl1*1 + zahl2*1;                                // 3. Rechenmethode
+// summe = zahl1*1 + zahl2*1;                                 // 3. Rechenmethode
 
 // console.log(summe);
 
@@ -69,11 +69,24 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 /******* Methode 6 *******/
 
-let zahl1, zahl2;
-zahl1 = prompt("Bitte eine Zahl eingeben: ");
-zahl2 = prompt("Bitte noch eine Zahl eingeben: ");
+// let zahl1, zahl2;
+// zahl1 = prompt("Bitte eine Zahl eingeben: ");
+// zahl2 = prompt("Bitte noch eine Zahl eingeben: ");
 
-zahl1 = Number(zahl1);                                    
-zahl2 = Number(zahl2); 
+// zahl1 = Number(zahl1);                                    
+// zahl2 = Number(zahl2); 
 
-console.log("Ausgabe der Summe: " + (zahl1 + zahl2));       // 6. Rechenmethode
+// console.log("Ausgabe der Summe: " + (zahl1 + zahl2));         // 6. Rechenmethode
+
+
+
+/******* Methode 7 *******/
+
+console.log
+(
+    "Die Summe ist: " + 
+    (
+        parseFloat(prompt("Bitte Zahl 1 eingeben")) +           // 7. Rechenmethode
+        parseFloat(prompt("Bitte Zahl 2 eingeben"))
+    )
+);
